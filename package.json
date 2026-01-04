@@ -14,7 +14,7 @@
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "build": "esbuild index.tsx --bundle --outfile=index.js --format=esm --minify --external:react --external:react-dom --external:react-router-dom --external:lucide-react --external:recharts",
+    "build": "mkdir -p build && esbuild index.tsx --bundle --outfile=build/index.js --format=esm --minify --external:react --external:react-dom --external:react-router-dom --external:lucide-react --external:recharts && cp index.html build/ && cp metadata.json build/ 2>/dev/null || true",
     "start": "echo 'Use a local development server that supports TSX or run the build script.'"
   }
 }
