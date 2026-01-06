@@ -93,7 +93,7 @@ const Home: React.FC = () => {
       {/* Achievements Stats Section */}
       <section className="py-20 border-y border-white/5 bg-slate-950 relative">
         <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, idx) => (
               <div key={idx} className="glass-card p-10 rounded-2xl text-center group hover:border-blue-500/30 transition-all">
                 <div className="mx-auto w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
@@ -103,22 +103,6 @@ const Home: React.FC = () => {
                 <div className="text-slate-400 font-medium uppercase tracking-widest text-sm">{stat.label}</div>
               </div>
             ))}
-          </div>
-          <div className="flex flex-col md:flex-row gap-6 justify-center items-center max-w-4xl mx-auto">
-            <div className="max-w-md">
-              <img 
-                src="/assets/collaborative-analysis.png" 
-                alt="Team analysis session" 
-                className="rounded-xl shadow-lg border border-white/10 w-full h-auto opacity-85"
-              />
-            </div>
-            <div className="max-w-md">
-              <img 
-                src="/assets/geospatial-discussion.png" 
-                alt="Geospatial data analysis" 
-                className="rounded-xl shadow-lg border border-white/10 w-full h-auto opacity-85"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -136,7 +120,7 @@ const Home: React.FC = () => {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, idx) => (
               <div key={idx} className="p-8 rounded-2xl bg-slate-900/50 border border-white/5 hover:bg-slate-900 transition-all">
                 <div className="text-blue-500 mb-6">{feature.icon}</div>
@@ -144,23 +128,6 @@ const Home: React.FC = () => {
                 <p className="text-slate-400 leading-relaxed">{feature.description}</p>
               </div>
             ))}
-          </div>
-
-          <div className="flex flex-col md:flex-row gap-6 justify-center items-center max-w-4xl mx-auto">
-            <div className="max-w-md">
-              <img 
-                src="/assets/geospatial-discussion.png" 
-                alt="Professional geospatial analysis" 
-                className="rounded-xl shadow-lg border border-white/10 w-full h-auto opacity-85"
-              />
-            </div>
-            <div className="max-w-md">
-              <img 
-                src="/assets/collaborative-analysis.png" 
-                alt="Collaborative impact mapping" 
-                className="rounded-xl shadow-lg border border-white/10 w-full h-auto opacity-85"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -172,22 +139,6 @@ const Home: React.FC = () => {
           <p className="text-blue-100 mb-12 max-w-xl mx-auto opacity-90">
             Join the movement towards a more resilient future. Our platform is ready for government and NGO integration.
           </p>
-          <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-12 max-w-4xl mx-auto">
-            <div className="max-w-md">
-              <img 
-                src="/assets/collaborative-analysis.png" 
-                alt="Team collaboration" 
-                className="rounded-xl shadow-lg border-2 border-white/20 w-full h-auto opacity-90"
-              />
-            </div>
-            <div className="max-w-md">
-              <img 
-                src="/assets/geospatial-discussion.png" 
-                alt="Data analysis team" 
-                className="rounded-xl shadow-lg border-2 border-white/20 w-full h-auto opacity-90"
-              />
-            </div>
-          </div>
           <Link to="/contact" className="inline-block px-10 py-5 bg-white text-blue-600 hover:bg-blue-50 rounded-2xl font-bold text-lg transition-all shadow-xl">
             Start a Collaboration
           </Link>
