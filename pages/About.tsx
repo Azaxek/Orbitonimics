@@ -1,8 +1,6 @@
 
 import React from 'react';
 import { Target, Eye, Compass, Satellite, Shield, Zap } from 'lucide-react';
-import collaborativeAnalysisImg from '../assets/collaborative-analysis.png';
-import geospatialDiscussionImg from '../assets/geospatial-discussion.png';
 
 const About: React.FC = () => {
   return (
@@ -47,7 +45,7 @@ const About: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="lg:w-1/2">
               <img 
-                src={collaborativeAnalysisImg} 
+                src="/assets/collaborative-analysis.png" 
                 alt="Team collaborating on satellite impact analysis" 
                 className="rounded-3xl shadow-2xl border border-white/10 w-full h-auto"
               />
@@ -86,7 +84,7 @@ const About: React.FC = () => {
           <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
             <div className="lg:w-1/2">
               <img 
-                src={geospatialDiscussionImg} 
+                src="/assets/geospatial-discussion.png" 
                 alt="Professional team analyzing geospatial data and maps" 
                 className="rounded-3xl shadow-2xl border border-white/10 w-full h-auto"
               />
