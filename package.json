@@ -14,7 +14,7 @@
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "build": "if not exist build mkdir build && esbuild index.tsx --bundle --outfile=build/index.js --format=esm --minify --external:react --external:react-dom --external:react-router-dom --external:lucide-react --external:recharts && copy index.html build\\ 2>nul && copy metadata.json build\\ 2>nul && if exist public\\assets (if not exist build\\assets mkdir build\\assets && xcopy /E /I /Y public\\assets\\* build\\assets\\ 2>nul)",
+    "build": "mkdir -p build && esbuild index.tsx --bundle --outfile=build/index.js --format=esm --minify --external:react --external:react-dom --external:react-router-dom --external:lucide-react --external:recharts && cp index.html build/ && cp metadata.json build/ 2>/dev/null || true && mkdir -p build/assets && cp -r public/assets/* build/assets/ 2>/dev/null || true",
     "start": "echo 'Use a local development server that supports TSX or run the build script.'"
   }
 }
