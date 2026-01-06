@@ -45,9 +45,9 @@ const About: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="lg:w-1/2">
               <img 
-                src="https://picsum.photos/id/122/800/1000" 
-                alt="Earth from Space" 
-                className="rounded-3xl shadow-2xl border border-white/10"
+                src="/assets/collaborative-analysis.png" 
+                alt="Team collaborating on satellite impact analysis" 
+                className="rounded-3xl shadow-2xl border border-white/10 w-full h-auto"
               />
             </div>
             <div className="lg:w-1/2">
@@ -72,6 +72,35 @@ const About: React.FC = () => {
                   <h4 className="text-blue-400 font-bold text-2xl mb-1">640</h4>
                   <p className="text-slate-500 text-sm">Safety Routes Live</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Collaboration Section */}
+      <section className="py-24 bg-slate-950/50">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
+            <div className="lg:w-1/2">
+              <img 
+                src="/assets/geospatial-discussion.png" 
+                alt="Professional team analyzing geospatial data and maps" 
+                className="rounded-3xl shadow-2xl border border-white/10 w-full h-auto"
+              />
+            </div>
+            <div className="lg:w-1/2">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">Precision Through Collaboration</h2>
+              <div className="space-y-6 text-slate-400 leading-relaxed">
+                <p>
+                  Our team combines satellite imagery analysis with ground-level expertise to create the most accurate impact maps possible. Every route is verified through multiple data sources and expert review.
+                </p>
+                <p>
+                  Through collaborative analysis of geospatial data, we ensure that our impact models account for real-world conditions, building structures, and regional infrastructure patterns.
+                </p>
+                <p>
+                  This rigorous approach has enabled us to achieve 98% accuracy in disaster impact predictions, saving countless lives and protecting critical public infrastructure.
+                </p>
               </div>
             </div>
           </div>
