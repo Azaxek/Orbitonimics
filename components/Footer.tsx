@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <div className="p-1.5 bg-blue-600 rounded-md">
                 <Satellite size={20} className="text-white" />
               </div>
-              <span className="text-xl font-bold text-white font-outfit">Orbitonomics</span>
+              <span className="text-xl font-bold text-white font-outfit">Orbitonimics</span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Revolutionizing global disaster management through satellite intelligence and geospatial analytics. Founded in 2023.
@@ -55,9 +55,9 @@ const Footer: React.FC = () => {
             <h4 className="text-white font-semibold mb-6">Newsletter</h4>
             <p className="text-slate-400 text-sm mb-4">Stay updated on our mapping missions.</p>
             <form className="relative">
-              <input 
-                type="email" 
-                placeholder="Enter email" 
+              <input
+                type="email"
+                placeholder="Enter email"
                 className="w-full bg-slate-900 border border-white/10 rounded-lg py-2.5 px-4 text-sm text-white focus:outline-none focus:border-blue-500 transition-colors"
               />
               <button className="absolute right-1 top-1 bottom-1 px-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors">
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 space-y-4 md:space-y-0">
-          <p>© {new Date().getFullYear()} Orbitonomics. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Orbitonimics. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

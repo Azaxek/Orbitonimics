@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <div className="p-2 bg-blue-600 rounded-lg group-hover:scale-110 transition-transform">
             <Satellite size={24} className="text-white" />
           </div>
-          <span className="text-2xl font-bold tracking-tight text-white font-outfit">Orbitonomics</span>
+          <span className="text-2xl font-bold tracking-tight text-white font-outfit">Orbitonimics</span>
         </Link>
 
         {/* Desktop Links */}

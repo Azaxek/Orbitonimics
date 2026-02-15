@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 opacity-10 pointer-events-none">
           <div className="h-full w-full bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:40px_40px]"></div>
         </div>
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-12">
             <div className="inline-flex items-center space-x-2 px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-400 text-xs font-semibold mb-8">
@@ -45,43 +45,43 @@ const Home: React.FC = () => {
               </span>
               <span>New: Satellite V3.0 Impact Model is live</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight max-w-4xl mx-auto">
               Transforming Disaster Response with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Satellite Impact Maps</span>
             </h1>
-            
+
             <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Orbitonomics provides mission-critical geospatial intelligence to save lives and protect public infrastructure during global emergencies.
+              Orbitonimics provides mission-critical geospatial intelligence to save lives and protect public infrastructure during global emergencies.
             </p>
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 items-center justify-center mb-12">
             <div className="max-w-md">
-              <img 
-                src="/assets/collaborative-analysis.png" 
-                alt="Team collaborating on satellite impact analysis" 
+              <img
+                src="/assets/collaborative-analysis.png"
+                alt="Team collaborating on satellite impact analysis"
                 className="rounded-2xl shadow-xl border border-white/10 w-full h-auto opacity-90"
               />
             </div>
             <div className="max-w-md">
-              <img 
-                src="/assets/geospatial-discussion.png" 
-                alt="Professional team analyzing geospatial data" 
+              <img
+                src="/assets/geospatial-discussion.png"
+                alt="Professional team analyzing geospatial data"
                 className="rounded-2xl shadow-xl border border-white/10 w-full h-auto opacity-90"
               />
             </div>
           </div>
-          
+
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <Link 
-              to="/impact" 
+            <Link
+              to="/impact"
               className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold flex items-center justify-center space-x-2 transition-all hover:shadow-[0_0_30px_rgba(37,99,235,0.4)]"
             >
               <span>Explore the Impact</span>
               <ArrowRight size={20} />
             </Link>
-            <Link 
-              to="/about" 
+            <Link
+              to="/about"
               className="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-bold border border-white/10 transition-all"
             >
               Learn More

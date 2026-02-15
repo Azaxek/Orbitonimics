@@ -9,7 +9,7 @@ const Team: React.FC = () => {
         <div className="text-center mb-20">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Leadership</h1>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-            Founded and led by Aryav Agrawal, Orbitonomics is built on a foundation of scientific rigor and humanitarian focus.
+            Founded and led by Aryav Agrawal, Orbitonimics is built on a foundation of scientific rigor and humanitarian focus.
           </p>
         </div>
 
@@ -38,14 +38,14 @@ const Team: React.FC = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="md:w-2/3">
               <div className="inline-block px-3 py-1 bg-blue-500/10 text-blue-400 text-xs font-bold rounded-full mb-4">Founder & CEO</div>
               <h2 className="text-4xl font-bold text-white mb-6">Aryav Agrawal</h2>
-              
+
               <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
                 <p>
-                  Aryav Agrawal is a visionary entrepreneur and technologist dedicated to utilizing advanced satellite imagery for humanitarian impact. Since founding Orbitonomics in 2023, he has served as the architect behind the company’s core mapping algorithms.
+                  Aryav Agrawal is a visionary entrepreneur and technologist dedicated to utilizing advanced satellite imagery for humanitarian impact. Since founding Orbitonimics in 2023, he has served as the architect behind the company’s core mapping algorithms.
                 </p>
                 <p>
                   With a deep expertise in geospatial intelligence and structural engineering, Aryav has successfully led the development of over 640 safety routes across three countries, establishing partnerships with major NGOs and municipal disaster response teams.
@@ -76,7 +76,7 @@ const Team: React.FC = () => {
           </div>
           <h3 className="text-3xl font-bold text-white mb-6">Future Growth</h3>
           <p className="text-slate-400 max-w-xl mx-auto mb-10">
-            While currently founder-led, Orbitonomics is preparing for expansion. We will soon be looking for engineers, data scientists, and disaster specialists to join our mission.
+            While currently founder-led, Orbitonimics is preparing for expansion. We will soon be looking for engineers, data scientists, and disaster specialists to join our mission.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <div className="px-6 py-4 bg-slate-900 rounded-xl border border-white/5 flex items-center gap-3 hover:border-blue-500/30 transition-colors group">

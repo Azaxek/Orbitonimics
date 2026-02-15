@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-16">
-            
+
             {/* Contact Info */}
             <div className="lg:w-1/3">
               <h1 className="text-4xl font-bold text-white mb-6">Connect</h1>
@@ -31,8 +31,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-bold mb-1">Email</h4>
-                    <p className="text-slate-400 text-sm">contact@orbitonomics.com</p>
-                    <p className="text-slate-400 text-sm">partnership@orbitonomics.com</p>
+                    <p className="text-slate-400 text-sm">contact@orbitonimics.com</p>
+                    <p className="text-slate-400 text-sm">partnership@orbitonimics.com</p>
                   </div>
                 </div>
 
@@ -83,9 +83,9 @@ const Contact: React.FC = () => {
                     </div>
                     <h2 className="text-3xl font-bold text-white mb-4">Message Sent</h2>
                     <p className="text-slate-400 mb-8 max-w-sm mx-auto">
-                      Thank you for reaching out to Orbitonomics. We will review your inquiry and get back to you within 24-48 hours.
+                      Thank you for reaching out to Orbitonimics. We will review your inquiry and get back to you within 24-48 hours.
                     </p>
-                    <button 
+                    <button
                       onClick={() => setSubmitted(false)}
                       className="px-8 py-3 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-700 transition-colors"
                     >
@@ -97,19 +97,19 @@ const Contact: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div className="space-y-2">
                         <label className="text-sm font-medium text-slate-400 px-1">Full Name</label>
-                        <input 
+                        <input
                           required
-                          type="text" 
-                          placeholder="Jane Doe" 
+                          type="text"
+                          placeholder="Jane Doe"
                           className="w-full bg-slate-800 border border-white/5 rounded-xl px-5 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
                         />
                       </div>
                       <div className="space-y-2">
                         <label className="text-sm font-medium text-slate-400 px-1">Email Address</label>
-                        <input 
+                        <input
                           required
-                          type="email" 
-                          placeholder="jane@example.com" 
+                          type="email"
+                          placeholder="jane@example.com"
                           className="w-full bg-slate-800 border border-white/5 rounded-xl px-5 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all"
                         />
                       </div>
@@ -128,16 +128,16 @@ const Contact: React.FC = () => {
 
                     <div className="space-y-2">
                       <label className="text-sm font-medium text-slate-400 px-1">Message</label>
-                      <textarea 
+                      <textarea
                         required
                         rows={6}
-                        placeholder="How can we help you?" 
+                        placeholder="How can we help you?"
                         className="w-full bg-slate-800 border border-white/5 rounded-xl px-5 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all resize-none"
                       ></textarea>
                     </div>
 
-                    <button 
-                      type="submit" 
+                    <button
+                      type="submit"
                       className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-blue-500/20"
                     >
                       <span>Send Message</span>

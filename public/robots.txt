@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://orbitonomics.company/sitemap.xml
+Sitemap: https://orbitonimics.company/sitemap.xml

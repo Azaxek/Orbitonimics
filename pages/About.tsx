@@ -10,10 +10,10 @@ const About: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">Our Mission</h1>
           <p className="text-xl text-slate-400 leading-relaxed mb-12">
-            Orbitonomics was founded with a singular conviction: that satellite data should not just observe disasters, but actively mitigate their human toll. We are building the infrastructure for a safer world.
+            Orbitonimics was founded with a singular conviction: that satellite data should not just observe disasters, but actively mitigate their human toll. We are building the infrastructure for a safer world.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="glass-card p-8 rounded-2xl border-white/10">
             <Target className="text-blue-500 mb-6" size={32} />
@@ -44,23 +44,23 @@ const About: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             <div className="lg:w-1/2">
-              <img 
-                src="/assets/collaborative-analysis.png" 
-                alt="Team collaborating on satellite impact analysis" 
+              <img
+                src="/assets/collaborative-analysis.png"
+                alt="Team collaborating on satellite impact analysis"
                 className="rounded-3xl shadow-2xl border border-white/10 w-full h-auto"
               />
             </div>
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">The Story of Orbitonomics</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">The Story of Orbitonimics</h2>
               <div className="space-y-6 text-slate-400 leading-relaxed">
                 <p>
-                  Founded in 2023 by <strong>Aryav Agrawal</strong>, Orbitonomics emerged from a simple observation: during natural disasters, the gap between data availability and actionable ground routes was dangerously wide.
+                  Founded in 2023 by <strong>Aryav Agrawal</strong>, Orbitonimics emerged from a simple observation: during natural disasters, the gap between data availability and actionable ground routes was dangerously wide.
                 </p>
                 <p>
                   Agrawal, serving as the sole founder and CEO, leveraged his background in geospatial analytics to bridge this gap. Starting with a pilot project in Mumbai, the company quickly scaled its operations, mapping 3,000+ regions in less than two years.
                 </p>
                 <p>
-                  Today, Orbitonomics stands as a leader in "impact-driven mapping," specializing in public building safety and dynamic route generation that can change as fast as a flood or wildfire spreads.
+                  Today, Orbitonimics stands as a leader in "impact-driven mapping," specializing in public building safety and dynamic route generation that can change as fast as a flood or wildfire spreads.
                 </p>
               </div>
               <div className="mt-10 grid grid-cols-2 gap-8">
@@ -83,9 +83,9 @@ const About: React.FC = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
             <div className="lg:w-1/2">
-              <img 
-                src="/assets/geospatial-discussion.png" 
-                alt="Professional team analyzing geospatial data and maps" 
+              <img
+                src="/assets/geospatial-discussion.png"
+                alt="Professional team analyzing geospatial data and maps"
                 className="rounded-3xl shadow-2xl border border-white/10 w-full h-auto"
               />
             </div>
@@ -114,7 +114,7 @@ const About: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Proprietary Technology Stack</h2>
             <p className="text-slate-400">Advanced orbital surveillance meets ground-truth verification.</p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-slate-900 p-8 rounded-2xl border border-white/5">
               <Satellite className="text-blue-500 mb-6" />
